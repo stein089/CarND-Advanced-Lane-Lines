@@ -73,6 +73,7 @@ Here's an example of my output for this step.
 
 Afterwards the pixels outside the area of interest are discarded. 
 This is the output:
+
 <img src="./writeup_media/05_image_roi_binary_test2.jpg" width="400" />
 
 
@@ -106,9 +107,11 @@ warped_binary = cv2.warpPerspective(image_binary, M, img_size)
 ```
 
 The following image shows the source region marked in the original image:
+
 <img src="./writeup_media/06_image_roi_poly1_test2.jpg" width="400" />
 
 This picture shows the warped image in grayscale:
+
 <img src="./writeup_media/08_warped_binary_test2.jpg" width="400" />
 
 
@@ -123,6 +126,7 @@ left_fit = np.polyfit(lefty, leftx, 2)
 right_fit = np.polyfit(righty, rightx, 2)
 ```
 The following image shows the output of the lane-line identificaiton and polynomial fit
+
 <img src="./writeup_media/09_test_test2.jpg" width="400" />
 
 #### 5. Describe how  you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
@@ -163,6 +167,7 @@ Here is an example of my result on a test image:
 <img src="./writeup_media/09_result_test2.jpg" width="400" />
 
 Additionally, the current radius of the curvatures and the delocation from the center are printed on the images:
+
 <img src="./writeup_media/10_result_text_test2.jpg" width="400" />
 
 
