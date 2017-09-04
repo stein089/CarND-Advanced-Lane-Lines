@@ -16,18 +16,28 @@ Click [here](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/READ
 
 ### Files
 
-The jupyter notebook `lane_lines.ipynb` contains the project code. 
-The project writeup can be found in `writeup_report.md`.
+* `lane_lines.ipynb`:  Jupyter notebook contains the project code. 
+* `writeup_report.md`: The project writeup can be found in.
 
-The images for camera calibration are stored in the folder called `camera_cal`.  
-The images in `test_images` are for testing your pipeline on single frames.  
-The folder `test_images_output` contains intermediate images from my processing pipeling, using input images from the `test_images` folder.
-The folder `test_videos_output` contains output videos using input videos from the `test_videos` folder.
+Folders:
+* `camera_cal`: Images for camera calibration
+* `test_images`: Images for testing your pipeline on single frames.  
+* `test_images_output`: Contains intermediate images from my processing pipeling, using input images from the `test_images` folder.
+* `test_videos`: Input videos for the project.
+* `test_videos_output`: Output videos using input videos from the `test_videos` folder.
 
-The video called `project_video.mp4` is the video your pipeline should work well on.  
-The `challenge_video.mp4` video is an extra (and optional) challenge for you if you want to test your pipeline under somewhat trickier conditions.  
-The `harder_challenge.mp4` video is another optional challenge and is brutal!
-
+The folder `test_images_output` contains the following:
+* Input image (01_image_in)
+* Undistorted image (02_undistorted_image)
+* Combined threshold - binary image (03_combined)
+* Plotted polygon of ROI onto original image (04_plot_poly_roi)
+* Grayscale image of ROI only (05_image_roi_binary)
+* Polygon for imagepoints/objectspoints on image (06_image_roi_poly1)
+* Warped color image (07_plot_warped_color)
+* Warped grayscale image (08_warped_binary)
+* Polygon in original image (09_result)
+* Polygon onto warped image + windows (09_test)
+* Final result (10_result_text)
 
 ### The Project
 
